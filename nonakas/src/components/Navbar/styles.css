@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+header {
+    background-color: rgb(248, 249, 250);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    padding: 0;
+    height: 80px;
+    position: fixed;
+}
+
+.navbar-brand {
+    padding: 13px;
+    padding-right: 85px;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    text-align: right;
+    font-size: 36px;
+    background-color: #a52a2a;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-nav{
+    display: flex;
+    padding-left: 50px;
+}
+
+.nav-item {
+    color: rgb(89, 74, 104);
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.nav-link {
+    display: inline-flex;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-transform: uppercase;
+    font-size: 1.28em;
+    transition: all .5s ease;
+    color: rgb(89, 74, 104)
+}
+
+.nav-link:hover {
+    color: #a52a2a;
+}
+
+.profile-img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.basket-img {
+    display: inline-flex;
+    padding-bottom: 4px;
+    padding-right: 2px;
+    margin-right: 8px;
+    width: 35px;
+    height: 40px;
+    margin-left: 10px;
+}
+
