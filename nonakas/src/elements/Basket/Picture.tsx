@@ -3,7 +3,7 @@ import styles from "./Picture.module.css";
 import background from "../../assets/img/baskets-bg.jpg";
 
 const Picture = () => {
-  return (  
+  return (
     <article className={styles.article}>
       <picture className={styles.picture}>
         <source media="(min-width: 0px)" srcSet={background} />
