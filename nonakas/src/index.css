@@ -1,9 +1,11 @@
 :root {
-  --color-primary: #a52a2a;
+  --color-primary: #000000;
 }
 
 html, body {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://drive.google.com/uc?id=15GxyxZXFdjZvzj7xFrhmJpuHGG1u_oaz");
+  background-size: 100%;
 }
 
 body {

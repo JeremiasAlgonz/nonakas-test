@@ -3,24 +3,18 @@ body {
     padding: 0;
 }
 
-.btn {
-    display: flex;
-    justify-self: center;
+.container{
+    display: inline-flex;
     position: absolute;
-    top: 90%;
+    top: 40%;
+    padding-left: 20%;
+    justify-content: space-around;
 }
 
-.btn-bd-primary {
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #a52a2a;
-    /*--bs-btn-border-color: rgba(255, 255, 255, 0.349);*/
-    --bs-btn-border-radius: .5rem;
-    --bs-btn-hover-color: #a52a2a;
-    --bs-btn-hover-bg: rgb(243, 231, 231);
-    --bs-btn-hover-border-color: #a52a2a;
-    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #a52a2a;
-    --bs-btn-active-border-color: #a52a2a;
+.register-btn{
+    display: flex;
+}
+
+.consult-btn{
+    display: flex;
 }
